@@ -7,10 +7,10 @@ def initialize(knowledge)
 end
 
 def learn(name)
-  name << KNOWLEDGE
+  name << @knowledge
 end 
 
 def knowledge
-  KNOWLEDGE
+  @knowledge
 end 
 end 
