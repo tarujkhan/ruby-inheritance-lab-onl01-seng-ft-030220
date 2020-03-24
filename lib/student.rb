@@ -6,4 +6,10 @@ def initialize(knowledge)
   @knowledge = []
 end
 
-def 
+def learn(name)
+  name << @knowledge
+end 
+
+def knowledge
+  @knowledge
+end 
